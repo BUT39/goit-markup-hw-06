@@ -325,7 +325,7 @@ img {
 .benefits-list {
   display: flex;
   flex-direction: column;
-  row-gap: 72;
+  row-gap: 72px;
   column-gap: 0;
 }
 .benefits-box {
@@ -340,13 +340,6 @@ img {
   margin-bottom: 8px;
 }
 .benefits-text {
-  /* font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455; */
-
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
