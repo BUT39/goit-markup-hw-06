@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -370,8 +370,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images@2x/Cashless-t@1x.jpg           1x,
-                      ./images@2x/images@2x/Cashless-t@2x.jpg 2x
+                      ./images@2x/Cashless-t@1x.jpg 1x,
+                      ./images@2x/Cashless-t@2x.jpg 2x
                     "
                     width="356"
                     height="300"
@@ -379,8 +379,8 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images@2x/Cashless-m@1x.jpg             1x,
-                      ./images@2x/images@2x/Cashless-m@2x.jpg2x
+                      ./images@2x/Cashless-m@1x.jpg 1x,
+                      ./images@2x/Cashless-m@2x.jpg 2x
                     "
                     width="288"
                     height="280"
@@ -418,8 +418,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images@2x/Meditation-t@1x.jpg           1x,
-                      ./images@2x/images@2x/Meditation-t@2x.jpg 2x
+                      ./images@2x/Meditation-t@1x.jpg 1x,
+                      ./images@2x/Meditation-t@2x.jpg 2x
                     "
                     width="356"
                     height="300"
@@ -427,8 +427,8 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images@2x/Meditation-m@1x.jpg           1x,
-                      ./images@2x/images@2x/Meditation-m@2x.jpg 2x
+                      ./images@2x/Meditation-m@1x.jpg,
+                      ./images@2x/Meditation-m@2x.jpg
                     "
                     width="288"
                     height="280"
@@ -466,8 +466,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images@2x/Taxi-t@1x.jpg           1x,
-                      ./images@2x/images@2x/Taxi-t@2x.jpg 2x
+                      ./images@2x/Taxi-t@1x.jpg 1x,
+                      ./images@2x/Taxi-t@2x.jpg 2x
                     "
                     width="356"
                     height="300"
@@ -475,8 +475,8 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images@2x/Taxi-m@1x.jpg           1x,
-                      ./images@2x/images@2x/Taxi-m@2x.jpg 2x
+                      ./images@2x/Taxi-m@1x.jpg 1x,
+                      ./images@2x/Taxi-m@2x.jpg 2x
                     "
                     width="288"
                     height="280"
@@ -514,8 +514,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images@2x/Screen-t@1x.jpg           1x,
-                      ./images@2x/images@2x/Screen-t@2x.jpg 2x
+                      ./images@2x/Screen-t@1x.jpg 1x,
+                      ./images@2x/Screen-t@2x.jpg 2x
                     "
                     width="356"
                     height="300"
@@ -523,8 +523,8 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images@2x/Screen-m@1x.jpg           1x,
-                      ./images@2x/images@2x/Screen-m@2x.jpg 2x
+                      ./images@2x/Screen-m@1x.jpg 1x,
+                      ./images@2x/Screen-m@2x.jpg 2x
                     "
                     width="288"
                     height="280"
@@ -562,8 +562,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images@2x/Online-t@1x.jpg           1x,
-                      ./images@2x/images@2x/Online-t@2x.jpg 2x
+                      ./images@2x/Online-t@1x.jpg 1x,
+                      ./images@2x/Online-t@2x.jpg 2x
                     "
                     width="356"
                     height="300"
@@ -571,8 +571,8 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images@2x/Online-m@1x.jpg           1x,
-                      ./images@2x/images@2x/Online-m@2x.jpg 2x
+                      ./images@2x/Online-m@1x.jpg 1x,
+                      ./images@2x/Online-m@2x.jpg 2x
                     "
                     width="288"
                     height="280"
@@ -670,7 +670,7 @@
     </footer>
     <!-- #endregion footer  -->
     <!-- #region modal -->
-    <div class="hiden" class="modal-main">
+    <div class="modal-main">
       <div class="modal">
         <button class="modal-send" type="button">
           <svg class="send" width="8" height="8">
@@ -754,10 +754,11 @@
       </div>
     </div>
     <!-- #endregion mobil------>
+
     <div class="mobil-menu" data-menu>
       <div class="container mobil-menu-container">
         <button class="mobil-menu-close" data-menu-close></button>
-        <nav class="mobil-menu-nav"></nav>
+        <nav class="mobil-menu-nav">
           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link current" href="./index.html">Studio</a>
@@ -770,6 +771,7 @@
             </li>
           </ul>
         </nav>
+        div>
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -784,9 +786,40 @@
             </li>
           </ul>
         </address>
+        <div class="media-main">
+          <ul class="media-list">
+            <li class="media-item">
+              <a class="media-link" href="">
+                <svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-item">
+              <a class="media-link" href=""
+                ><svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Group"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-item">
+              <a class="media-link" href=""
+                ><svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-item">
+              <a class="media-link" href=""
+                ><svg class="social-link" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-     <script src="./js/menu.js"></script>
-      <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
